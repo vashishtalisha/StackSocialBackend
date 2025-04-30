@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="FollowersSystem">
-      <change beforePath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" afterDir="false" />
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="CHAT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "onboarding.tips.debug.path": "/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DMCLI">
+  <component name="RunManager" selected="Application.NotificationCLI">
     <configuration name="DMCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DirectMessages.DMCLI" />
       <module name="StackSocial2" />
@@ -58,6 +58,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FollowersSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotificationsSystem.NotificationCLI" />
+      <module name="StackSocial2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NotificationsSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserManagement.UserCLI" />
-      <module name="StackSocial2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UserManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotificationCLI" />
         <item itemvalue="Application.DMCLI" />
         <item itemvalue="Application.FollowersCLI" />
         <item itemvalue="Application.TrendingCLI" />
         <item itemvalue="Application.PostCLI" />
-        <item itemvalue="Application.UserCLI" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745987794933</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CHAT">
+      <created>1745988477561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745988477561</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CHAT">
+      <created>1745989262102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745989262102</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +200,8 @@
     <MESSAGE value="PostManagement" />
     <MESSAGE value="TrendingFeed" />
     <MESSAGE value="FollowersSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="FollowersSystem" />
+    <MESSAGE value="CHAT" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHAT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
