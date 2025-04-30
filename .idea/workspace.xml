@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="PostManagement">
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/PostCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/PostCLI.java" afterDir="false" />
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="TrendingFeed">
+      <change beforePath="$PROJECT_DIR$/src/FollowersSystem/FollowersCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FollowersSystem/FollowersCLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,20 @@
     "onboarding.tips.debug.path": "/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TrendingCLI">
+  <component name="RunManager" selected="Application.FollowersCLI">
+    <configuration name="FollowersCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FollowersSystem.FollowersCLI" />
+      <module name="StackSocial2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FollowersSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PostManagement.PostCLI" />
       <module name="StackSocial2" />
@@ -81,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FollowersCLI" />
         <item itemvalue="Application.TrendingCLI" />
         <item itemvalue="Application.PostCLI" />
         <item itemvalue="Application.UserCLI" />
@@ -124,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745916350445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TrendingFeed">
+      <created>1745986868962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745986868963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +163,8 @@
     <MESSAGE value="UserManagementModule" />
     <MESSAGE value="UserManagementModule1" />
     <MESSAGE value="PostManagement" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostManagement" />
+    <MESSAGE value="TrendingFeed" />
+    <option name="LAST_COMMIT_MESSAGE" value="TrendingFeed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
