@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="Notifications">
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="File data storage for posts and users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectMessages/DMService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/DMService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/PostDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/PostDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserManagement/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserManagement/RegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserManagement/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserManagement/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserManagement/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserManagement/UserDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PostCLI">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DMCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DirectMessages.DMCLI" />
       <module name="StackSocial2" />
@@ -105,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PostCLI" />
         <item itemvalue="Application.UserCLI" />
         <item itemvalue="Application.FollowersCLI" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DMCLI" />
       </list>
     </recent_temporary>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745989875574</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="File data storage for posts and users">
+      <created>1746515317626</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746515317626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +220,7 @@
     <MESSAGE value="FollowersSystem" />
     <MESSAGE value="CHAT" />
     <MESSAGE value="Notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notifications" />
+    <MESSAGE value="File data storage for posts and users" />
+    <option name="LAST_COMMIT_MESSAGE" value="File data storage for posts and users" />
   </component>
 </project>

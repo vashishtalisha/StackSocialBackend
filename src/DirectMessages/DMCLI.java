@@ -3,7 +3,10 @@ package DirectMessages;
 import java.util.Scanner;
 
 public class DMCLI {
+
+
     public static void main(String[] args) {
+//        DMDataStorage.loadAllChats();
         Scanner sc = new Scanner(System.in);
         System.out.println("=== Direct Messages CLI ===");
 
@@ -42,5 +45,7 @@ public class DMCLI {
                     System.out.println("Invalid option.");
             }
         }
+//        DMDataStorage.saveAllChats();
+
     }
 }

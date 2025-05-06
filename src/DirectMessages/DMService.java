@@ -25,4 +25,18 @@ public class DMService {
             System.out.println("No messages between " + user1 + " and " + user2);
         }
     }
+    public static Map<String, Map<String, ChatHistory>> getChats() {
+        return chats;
+    }
+    public static void sendMessageFromStorage(String sender, String receiver, Message message) {
+        chats.putIfAbsent(sender, new HashMap<>());
+        chats.putIfAbsent(receiver, new HashMap<>());
+
+        chats.get(sender).putIfAbsent(receiver, new ChatHistory());
+        chats.get(receiver).putIfAbsent(sender, new ChatHistory());
+
+        chats.get(sender).get(receiver).addMessage(message);
+        chats.get(receiver).get(sender).addMessage(message);
+    }
+
 }
