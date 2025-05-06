@@ -61,7 +61,7 @@ public class UserCLI {
                     break;
 
                 case 5:
-                    System.out.println("Exiting... Goodbye!");
+                    System.out.println("Exiting... Goodbye!!");
                     return;
 
                 default:
