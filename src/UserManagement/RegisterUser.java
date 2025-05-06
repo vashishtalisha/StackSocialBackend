@@ -7,7 +7,9 @@ public class RegisterUser {
             return false;
         }
         UserDatabase.users.put(username, new User(username, password));
+        UserDatabase.save(); // persist change
         System.out.println("User registered successfully!");
         return true;
     }
+
 }

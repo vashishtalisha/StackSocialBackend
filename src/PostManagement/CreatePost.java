@@ -6,6 +6,9 @@ public class CreatePost {
         PostDatabase.allPosts.add(post);
 
         PostDatabase.userPosts.computeIfAbsent(username, k -> new ArrayList<>()).add(post);
+
+        PostDataStorage.savePosts();
+
         System.out.println("Post created with ID: " + post.getId());
     }
 }

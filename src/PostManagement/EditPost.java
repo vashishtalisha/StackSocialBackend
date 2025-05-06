@@ -5,6 +5,9 @@ public class EditPost {
         for (Post post : PostDatabase.allPosts) {
             if (post.getId() == postId && post.getUsername().equals(username)) {
                 post.edit(newContent);
+
+                PostDataStorage.savePosts();
+
                 System.out.println("Post edited. Previous version pushed to history.");
                 return;
             }
