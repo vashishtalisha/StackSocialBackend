@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="File data storage for posts and users">
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="CHAT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/DMCLI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DirectMessages/DMService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/DMService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/posts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager">
     <configuration name="DMCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DirectMessages.DMCLI" />
       <module name="StackSocial2" />
@@ -68,9 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="NotificationCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotificationsSystem.NotificationCLI" />
       <module name="StackSocial2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NotificationsSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserManagement.UserCLI" />
+    <configuration name="TrendingCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrendingFeed.TrendingCLI" />
       <module name="StackSocial2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UserManagement.*" />
+          <option name="PATTERN" value="TrendingFeed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PostCLI" />
-        <item itemvalue="Application.UserCLI" />
-        <item itemvalue="Application.FollowersCLI" />
+        <item itemvalue="Application.NotificationCLI" />
         <item itemvalue="Application.DMCLI" />
+        <item itemvalue="Application.FollowersCLI" />
+        <item itemvalue="Application.TrendingCLI" />
+        <item itemvalue="Application.PostCLI" />
       </list>
     </recent_temporary>
   </component>
@@ -176,28 +182,7 @@
       <option name="project" value="LOCAL" />
       <updated>1745989262102</updated>
     </task>
-    <task id="LOCAL-00009" summary="Notifications">
-      <created>1745989848352</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1745989848352</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Notifications">
-      <created>1745989875573</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1745989875574</updated>
-    </task>
-    <task id="LOCAL-00011" summary="File data storage for posts and users">
-      <created>1746515317626</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1746515317626</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,8 +204,17 @@
     <MESSAGE value="TrendingFeed" />
     <MESSAGE value="FollowersSystem" />
     <MESSAGE value="CHAT" />
-    <MESSAGE value="Notifications" />
-    <MESSAGE value="File data storage for posts and users" />
-    <option name="LAST_COMMIT_MESSAGE" value="File data storage for posts and users" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHAT" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

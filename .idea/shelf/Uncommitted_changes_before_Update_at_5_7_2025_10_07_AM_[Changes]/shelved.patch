@@ -1,0 +1,107 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9923d4d8-c719-4b2c-aedc-a02eadb2ae69\" name=\"Changes\" comment=\"CHAT\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2wO5PXnRXwR8dlTLMhBlWI5YZxe\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"onboarding.tips.debug.path\": \"/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.NotificationCLI\">\r\n    <configuration name=\"DMCLI\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DirectMessages.DMCLI\" />\r\n      <module name=\"StackSocial2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DirectMessages.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FollowersCLI\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FollowersSystem.FollowersCLI\" />\r\n      <module name=\"StackSocial2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"FollowersSystem.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NotificationCLI\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"NotificationsSystem.NotificationCLI\" />\r\n      <module name=\"StackSocial2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"NotificationsSystem.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"PostCLI\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"PostManagement.PostCLI\" />\r\n      <module name=\"StackSocial2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"PostManagement.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TrendingCLI\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TrendingFeed.TrendingCLI\" />\r\n      <module name=\"StackSocial2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TrendingFeed.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.NotificationCLI\" />\r\n        <item itemvalue=\"Application.DMCLI\" />\r\n        <item itemvalue=\"Application.FollowersCLI\" />\r\n        <item itemvalue=\"Application.TrendingCLI\" />\r\n        <item itemvalue=\"Application.PostCLI\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9923d4d8-c719-4b2c-aedc-a02eadb2ae69\" name=\"Changes\" comment=\"\" />\r\n      <created>1745899758796</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1745899758796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"First checking commit\">\r\n      <created>1745900085827</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745900085827</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"UserManagementModule\">\r\n      <created>1745903462306</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745903462306</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"UserManagementModule1\">\r\n      <created>1745903502282</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745903502282</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"PostManagement\">\r\n      <created>1745916350445</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745916350445</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"TrendingFeed\">\r\n      <created>1745986868962</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745986868963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"FollowersSystem\">\r\n      <created>1745987794933</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745987794933</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"CHAT\">\r\n      <created>1745988477561</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745988477561</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"CHAT\">\r\n      <created>1745989262102</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1745989262102</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"First checking commit\" />\r\n    <MESSAGE value=\"UserManagementModule\" />\r\n    <MESSAGE value=\"UserManagementModule1\" />\r\n    <MESSAGE value=\"PostManagement\" />\r\n    <MESSAGE value=\"TrendingFeed\" />\r\n    <MESSAGE value=\"FollowersSystem\" />\r\n    <MESSAGE value=\"CHAT\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"CHAT\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2c0666bad547997ec24b14bbde8da7fd46035f58)
++++ b/.idea/workspace.xml	(date 1746592640191)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="CHAT">
++    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="i m commiting a file">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -22,6 +22,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Rahul1309200&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/vashishtalisha/StackSocialBackend.git&quot;,
++    &quot;accountId&quot;: &quot;50bb5130-b9a2-4a61-b6c0-d3776dd38ce9&quot;
++  }
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 3
++}</component>
+   <component name="ProjectId" id="2wO5PXnRXwR8dlTLMhBlWI5YZxe" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="1" id="Add" />
+@@ -30,15 +45,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "onboarding.tips.debug.path": "/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.DMCLI.executor&quot;: &quot;Run&quot;,
++    &quot;Application.NotificationCLI.executor&quot;: &quot;Run&quot;,
++    &quot;Application.UserCLI.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/alishavashisht/IdeaProjects/StackSocial2/src/Main.java&quot;
+   }
+-}]]></component>
+-  <component name="RunManager" selected="Application.NotificationCLI">
++}</component>
++  <component name="RunManager" selected="Application.DMCLI">
+     <configuration name="DMCLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="DirectMessages.DMCLI" />
+       <module name="StackSocial2" />
+@@ -106,8 +126,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.NotificationCLI" />
+         <item itemvalue="Application.DMCLI" />
++        <item itemvalue="Application.NotificationCLI" />
+         <item itemvalue="Application.FollowersCLI" />
+         <item itemvalue="Application.TrendingCLI" />
+         <item itemvalue="Application.PostCLI" />
+@@ -179,7 +199,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1745989262102</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="i m commiting a file">
++      <option name="closed" value="true" />
++      <created>1746426050490</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1746426050490</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -201,7 +229,8 @@
+     <MESSAGE value="TrendingFeed" />
+     <MESSAGE value="FollowersSystem" />
+     <MESSAGE value="CHAT" />
+-    <option name="LAST_COMMIT_MESSAGE" value="CHAT" />
++    <MESSAGE value="i m commiting a file" />
++    <option name="LAST_COMMIT_MESSAGE" value="i m commiting a file" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
