@@ -3,7 +3,9 @@
 import UserManagement.UserDatabase;
 import PostManagement.PostDatabase;
 
-import java.util.Scanner;
+import java.util.*;
+import java.io.Console;
+
 
 public class AdminPanel {
     private static final String ADMIN_USERNAME = "admin";
@@ -13,8 +15,18 @@ public class AdminPanel {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter admin username: ");
         String username = sc.nextLine();
-        System.out.print("Enter admin password: ");
-        String password = sc.nextLine();
+
+        String password;
+        Console console = System.console();
+
+        if (console != null) {
+            char[] passwordChars = console.readPassword("Enter admin password: ");
+            password = new String(passwordChars);
+        } else {
+            // Fallback when using IntelliJ or other IDEs that don't support System.console()
+            System.out.print("Enter admin password (visible): ");
+            password = sc.nextLine();
+        }
 
         if (username.equals(ADMIN_USERNAME) && password.equals(ADMIN_PASSWORD)) {
             System.out.println("Admin login successful!");
@@ -23,6 +35,7 @@ public class AdminPanel {
             System.out.println("Invalid admin credentials.");
         }
     }
+
 
     private static void adminMenu() {
         Scanner sc = new Scanner(System.in);
