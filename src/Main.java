@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        PostDataStorage.loadPosts();
         Scanner sc = new Scanner(System.in);
         String currentUser = null;
 
@@ -38,6 +39,8 @@ public class Main {
                         currentUser = loginUser;
                         NotificationService.getNotifications(currentUser);
                         loggedInMenu(sc, currentUser);
+                    }else {
+                        System.out.println("Login failed: Incorrect username or password.");
                     }
                 }
                 case 3 -> {

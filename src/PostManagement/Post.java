@@ -61,6 +61,18 @@ public class Post {
         System.out.println("Time: " + timestamp);
         System.out.println("Content: " + content);
         System.out.println("Likes: " + getLikeCount());
-        System.out.println("Comments: " + comments);
+        System.out.println("Liked by: " + (likes.isEmpty() ? "No likes yet" : String.join(", ", likes)));
+
+        System.out.println("Comments:");
+        if (comments.isEmpty()) {
+            System.out.println("- No comments yet.");
+        } else {
+            for (String comment : comments) {
+                System.out.println("- " + comment);
+            }
+        }
+    }
+    public static void setCounter(int newCounter) {
+        counter = newCounter;
     }
 }

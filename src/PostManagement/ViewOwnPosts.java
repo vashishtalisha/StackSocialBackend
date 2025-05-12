@@ -11,14 +11,9 @@ public class ViewOwnPosts {
         }
 
         for (Post post : posts) {
-            System.out.println("Post ID: " + post.getId());
-            System.out.println("Content: " + post.getContent());
-            System.out.println("Likes: " + post.getLikes().size());
-            System.out.println("Comments:");
-            for (String c : post.getComments()) {
-                System.out.println("- " + c);
-            }
-            System.out.println("-------------------");
+            System.out.println("DEBUG viewing post " + post.getId() + " - Likes: " + post.getLikes());
+            post.viewPost();
         }
+
     }
 }
