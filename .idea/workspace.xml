@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="admin privileges added">
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="custom deque">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationsSystem/Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationsSystem/Custom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotificationsSystem/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotificationsSystem/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/posts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectMessages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectMessages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrendingFeed/RecentPosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrendingFeed/SearchPosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrendingFeed/TrendingCLI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrendingFeed/TrendingPosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747059760811</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="custom deque">
+      <created>1747061529713</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747061529713</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +227,7 @@
     <MESSAGE value="CHAT" />
     <MESSAGE value="likes, comments , post ids" />
     <MESSAGE value="admin privileges added" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin privileges added" />
+    <MESSAGE value="custom deque" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom deque" />
   </component>
 </project>

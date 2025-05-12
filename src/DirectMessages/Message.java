@@ -7,7 +7,7 @@ public class Message {
     private String receiver;
     private String content;
     private LocalDateTime timestamp;
-    Message prev, next;  // for doubly linked list
+    Message prev, next;  // for doubly linked list(custom)
 
     public Message(String sender, String receiver, String content) {
         this.sender = sender;
