@@ -5,6 +5,9 @@ import java.util.*;
 
 public class UserDataStorage {
     private static final String FILE_NAME = "users.txt";
+    public static void saveUser() {
+        saveUsers(UserDatabase.users);
+    }
 
     public static void saveUsers(HashMap<String, User> users) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME))) {

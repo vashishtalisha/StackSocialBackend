@@ -14,8 +14,9 @@ public class Main {
         while (true) {
             System.out.println("\n=== StackSocial MAIN MENU ===");
             System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.println("2. Login as User");
+            System.out.println("3. Login as Admin");
+            System.out.println("4. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -39,11 +40,16 @@ public class Main {
                         currentUser = loginUser;
                         NotificationService.getNotifications(currentUser);
                         loggedInMenu(sc, currentUser);
-                    }else {
+                    } else {
                         System.out.println("Login failed: Incorrect username or password.");
                     }
                 }
                 case 3 -> {
+
+                AdminPanel.adminLogin();
+
+            }
+                case 4 -> {
                     System.out.println("Exiting StackSocial. Goodbye!");
                     sc.close();
                     return;

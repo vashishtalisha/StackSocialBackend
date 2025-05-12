@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="CHAT">
+    <list default="true" id="9923d4d8-c719-4b2c-aedc-a02eadb2ae69" name="Changes" comment="likes, comments , post ids">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/posts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/CreatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/CreatePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/LikePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/LikePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/PostDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/PostDataStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostManagement/ViewOwnPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostManagement/ViewOwnPosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserManagement/UserDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserManagement/UserDataStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/users.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745989262102</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="likes, comments , post ids">
+      <created>1747056571720</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747056571720</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +207,7 @@
     <MESSAGE value="TrendingFeed" />
     <MESSAGE value="FollowersSystem" />
     <MESSAGE value="CHAT" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHAT" />
+    <MESSAGE value="likes, comments , post ids" />
+    <option name="LAST_COMMIT_MESSAGE" value="likes, comments , post ids" />
   </component>
 </project>
